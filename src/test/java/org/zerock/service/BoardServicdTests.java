@@ -61,4 +61,9 @@ public class BoardServicdTests {
 		board.setTitle("제목을 수정합니다.");
 		log.info("modufy result : " + service.modify(board));
 	}
+	
+	@Test
+	public void testGit() {
+		log.info("성공인가 git..!!");
+	}
 }

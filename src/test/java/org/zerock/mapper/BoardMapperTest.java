@@ -54,4 +54,9 @@ public class BoardMapperTest {
 		int count = mapper.update(board);
 		log.info("update cnt" + count);
 	}
+	
+	@Test
+	public void testGit() {
+		log.info("성공인가 git..!!");
+	}
 }
